@@ -1,0 +1,8 @@
+reconfig:
+sudo /usr/local/bin/noip2 -C
+
+launch:
+/usr/local/bin/noip2
+
+start on boot:
+systemctl enable noip2.service
